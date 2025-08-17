@@ -1,0 +1,64 @@
+# Site configuration for GitHub Pages with Tactile theme
+
+# Site settings
+title: Your Site Title
+description: A brief description of your site or project
+author: Your Name
+
+# GitHub Pages settings
+theme: jekyll-theme-tactile
+# remote_theme: pages-themes/tactile@v0.2.0  # Alternative if theme doesn't work
+
+# GitHub repository settings (automatically populated by GitHub Pages)
+# github:
+#   repository_name: your-repo-name
+#   repository_url: https://github.com/username/your-repo-name
+#   owner_name: Your GitHub Username
+
+# Optional: Show download links
+show_downloads: true
+
+# Optional: Google Analytics tracking ID
+# google_analytics: UA-XXXXXXXX-X
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugin settings
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+
+# Include files that start with underscore
+include:
+  - .htaccess
+
+# Sass settings for custom CSS
+sass:
+  style: compressed
+
+# Collections (if you plan to use them)
+# collections:
+#   posts:
+#     output: true
+#     permalink: /:collection/:name/
+
+# SEO settings
+url: "https://yourusername.github.io"  # Replace with your GitHub Pages URL
+baseurl: "/your-repo-name"  # Replace with your repository name (leave empty if using username.github.io)
+
+# Social media and contact info (optional)
+# twitter_username: your_twitter
+# github_username: your_github
+# linkedin_username: your_linkedin
+# email: your.email@example.com
