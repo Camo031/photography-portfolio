@@ -1,0 +1,31 @@
+# Site settings
+title: My Photo Gallery
+description: A beautiful photo gallery powered by Jekyll and Lightbox2
+baseurl: "" # Leave empty for user sites (username.github.io) or "/repository-name" for project sites
+url: "https://yourusername.github.io" # Replace with your GitHub username
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Theme settings
+logo: /assets/images/logo.png # Optional: add your logo
+show_downloads: false
+
+# Collections for organizing content
+collections:
+  photos:
+    output: false
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
